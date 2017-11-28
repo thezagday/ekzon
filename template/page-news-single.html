@@ -1,0 +1,318 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- Шрифты -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,700,900&amp;amp;subset=cyrillic" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&amp;amp;subset=cyrillic" rel="stylesheet"/>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css"/>
+    <!-- Стили-->
+    <!-- Нормалайзер -->
+    <link rel="stylesheet" href="style/normalize.css"/>
+    <!-- Bootstrap 		-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"/>
+    <!-- /Bootstrap -->
+    <!-- Slick Slider-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <!-- Стиль сайта-->
+    <link rel="stylesheet" href="style/style.css"/>
+    <!-- Стиль шаблона(header - footer)-->
+    <link rel="stylesheet" href="style/page-template.css"/>
+    <!-- /Стили-->
+    <!-- jQuery-->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- Тело сайта -->
+    <body>
+      <!-- Модальные окна-->
+      <!-- Модальное окно - Вход для клиентов-->
+      <div class="modal fade" id="modal-box" tabindex="-1" role="dialog" aria-labelledby="assort-btn" aria-hidden="true">
+        <div class="modal-box modal-dialog">
+          <div class="modal__content-login">ЗДЕСЬ СОДЕРЖИМОЕ МОДАЛЬНОГО ОКНА "ВХОД ДЛЯ КЛИЕНТОВ"</div>
+        </div>
+      </div>
+      <!-- ***** Хэдер ***** -->
+      <div class="header">
+        <!-- Header-top-->
+        <div class="header-top inn_padd">
+          <div class="header-top__inner site-width">
+            <div class="header-top__item header-adress"><img class="header-top__icon" src="template-images/header-top-point.png"/>
+              <div class="header-top__text">225612, Республика Беларусь, г.Дрогичин, ул.Ленина 202</div>
+            </div><a class="header-top__item header-top__item-pharma" href="page-pharma.html"><img class="header-top__icon" src="template-images/header-top-nadzor.png"/>
+              <div class="header-top__text">Фармаконадзор</div></a>
+            <div class="header-top__item header-top-login" data-target="#modal-box" href="" data-toggle="modal"><img class="header-top__icon" src="template-images/header-top-login.png"/>
+              <div class="header-top__text">Вход для клиентов</div>
+            </div>
+            <div class="header-top__item-abs ru-eng">
+              <div class="ru-eng__eng">
+                <div class="ru-eng__text">ENG</div><img class="ru-eng__img" src="template-images/header-top-eng.png"/>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Header-bottom-->
+        <div class="header-bottom inn_padd">
+          <div class="header-bottom__inner site-width">
+            <!-- Левое крыло-->
+            <div class="header-bottom__left">
+              <ul class="menu header-menu">
+                <li><a class="button-link header-menu__button" href="page-catalog.html">Каталог продукции</a>
+                </li>
+                <li><a class="button-link header-menu__button" href="page-about-company.html">О Компании</a>
+                </li>
+                <li><a class="button-link header-menu__button" href="page-news-all.html">Новости</a>
+                </li>
+              </ul>
+            </div>
+            <!-- Центр-->
+            <div class="header-bottom__center"><a class="header-bottom-logo" href="page-main.html"><img class="header-bottom-logo__img" src="template-images/header-logo.png"/>
+                <div class="header-bottom-logo__text">
+                  <div class="header-bottom-logo__text-text">
+                    <div class="header-bottom-logo__text-title">ОАО 
+                      <q>ЭКЗОН</q>
+                    </div>
+                    <div class="header-bottom-logo__text-description1">Производство натуральных </div>
+                    <div class="header-bottom-logo__text-description2">лекарственных средств</div>
+                  </div>
+                </div></a></div>
+            <!-- Правое крыло-->
+            <div class="header-bottom__right">
+              <ul class="menu header-menu">
+                <li><a class="button-link header-menu__button" href="#">Партнерам</a>
+                </li>
+                <li><a class="button-link header-menu__button" href="page-contacts.html">Контакты</a>
+                </li>
+                <li>
+                        <button class="button button--gradient online-order" data-target="#modal-box" href="" data-toggle="modal">Онлайн заявка</button>
+                </li>
+              </ul>
+            </div>
+            <div class="header-bottom__right-top header-bottom__right-top-phone"> <span>8 01644 </span><strong>3-24-09	</strong></div>
+            <div class="header-bottom__left-top">
+                    <form class="header-search">
+                      <input type="text" name="search"/>
+                    </form>
+            </div>
+          </div>
+          <!-- Мобильная шапка-->
+          <div class="header-bottom__inner-mobile site-width">
+            <!-- Колонка Лого-->
+            <div class="header-bottom-mobile__col header-mobile-logo__footer-logo"><img class="footer-logo__img" src="template-images/header-logo.png"/>
+              <div class="footer-logo__text">
+                <div class="footer-logo__text-title">ОАО 
+                  <q>ЭКЗОН</q>
+                </div>
+                <div class="footer-logo__text-description1">Производство натуральных</div>
+                <div class="footer-logo__text-description2">лекарственных средств</div>
+              </div>
+            </div>
+            <!-- Колонка Телефон-->
+            <div class="header-bottom-mobile__col header-bottom-mobile__col2">
+              <div class="header-bottom-mobile__phone"><span>8 01644</span><strong>&nbsp3-24-09</strong></div>
+                    <button class="button button--gradient online-order" data-target="#modal-box" href="" data-toggle="modal">Онлайн заявка</button>
+            </div>
+            <!-- Колонка Меню-->
+            <div class="header-bottom-mobile__col header-bottom-mobile__col3 header-mobile-menu">
+                    <div class="menu-mobile theme-exon">
+                      <!-- Кнопка -->
+                      <input type="checkbox" name="mobile-menu" id="mobile-menu_stroke-cross" style="display:none;"/>
+                      <div class="mobile-menu">
+                        <label class="mobile-menu__strokes" for="mobile-menu_stroke-cross">
+                          <div class="mobile-menu__stroke mobile-menu__stroke-cross1"></div>
+                          <div class="mobile-menu__stroke mobile-menu__stroke-cross2"></div>
+                          <div class="mobile-menu__stroke mobile-menu__stroke-cross3"></div>
+                        </label>
+                      </div>
+                      <!-- Меню -->
+                      <div class="mobile-menu__menu">
+                        <ul class="mobile-menu__item" id="mobile-menu">
+                          <!-- Ссылка меню-->
+                          <li><a class="mobile-menu__item-a" href="#">link1</a></li>
+                          <li><a class="mobile-menu__item-a" href="#">link2</a></li>
+                        </ul>
+                      </div>
+                    </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ***** /Хэдер ***** -->
+      <!-- ***** Контент ***** -->
+            <div class="main-slider-slick page__title">
+              <div class="main-slider-slick__item"><img class="main-slider__img" src="template-images/news-all__title.png"/>
+                <div class="main-slider__txt">
+                  <div class="main-slider__txt-title">Новости</div>
+                </div>
+                <!-- Крошки		-->
+                <div class="page__title-crumbs inn_padd">
+                  <div class="page__title-crumbs__inner site-width"><a class="page__title-crumbs__main" href="#">Главная<i class="fa fa-angle-double-right page__title-crumbs__fa" aria-hidden="true"></i><a class="page__title-crumbs__child" href="#">Новости</a><i class="fa fa-angle-double-right page__title-crumbs__fa" aria-hidden="true"></i><a class="page__title-crumbs__child" href="#">Новость1</a></a></div>
+                </div>
+              </div>
+            </div>
+      <!-- Содержимое страницы "Новость"-->
+      <div class="news-all news-single inn_padd">
+        <div class="news-all__inner site-width">
+          <!-- Строка "Подписаться" и "Сортировка"-->
+          <div class="news-all-small-head">
+            <div class="news-all-small-head__col news-all__back-to-all"><i class="fa fa-angle-left back-to-all__arrow" aria-hidden="true"></i><a class="news-all__back-to-all-txt" href="page-news-all.html">К списку новостей</a></div>
+            <div class="news-all-small-head__col">
+                    <div class="news-subscribe">
+                      <div class="news-subscribe__text">Подписаться на новости</div>
+                      <form class="news-subscribe-form">
+                        <input class="news-subscribe-form__input" type="text" name="subscribe-name" id="subscribe-name" placeholder="Ваш e-mail"/>
+                        <input class="news-subscribe-form__submit" type="submit" value="Подписаться"/>
+                      </form>
+                    </div>
+            </div>
+          </div>
+          <div class="news-single__slider">
+                  <div class="main-slider-slick main-slider-slick__theme-exon">
+                    <div class="main-slider-slick__item"><img class="main-slider__img" src="template-images/news-single__slider.png"/>
+                      <div class="main-slider__txt">
+                        <div class="main-slider__txt-title"></div>
+                        <div class="main-slider__txt-text"></div>
+                      </div>
+                    </div>
+                    <div class="main-slider-slick__item"><img class="main-slider__img" src="template-images/main-page-slider__img.png"/>
+                      <div class="main-slider__txt">
+                        <div class="main-slider__txt-title"></div>
+                        <div class="main-slider__txt-text"></div>
+                      </div>
+                    </div>
+                  </div>
+          </div>
+          <div class="news-single__post">
+            <div class="news-single__post-date">
+              <div class="news-all__previews-item-text-date">18.09.2016</div>
+            </div>
+            <div class="news-single__post-title">Международная специализированная выставка «Здравоохранение и Фармация EXPO-2017» в Ереване с 22 по 27 февраля</div>
+            <div class="news-single__post-text">
+              <p>Сотрудники отдела маркетинга ОАО «Экзон» приняли участие в специализированной выставке «Здравоохранение и Фармация EXPO-2017», которая проходила 22-27 февраля в Ереване. В рамках участия в выставке была проведена дегустация продукции, а также были достигнуты договоренности о поставке гематогена в Республику Армения.</p>
+              <p>Сотрудники отдела маркетинга ОАО «Экзон» приняли участие в специализированной выставке «Здравоохранение и Фармация EXPO-2017», которая проходила 22-27 февраля в Ереване. В рамках участия в выставке была проведена дегустация продукции, а также были достигнуты договоренности о поставке гематогена в Республику Армения.</p>
+              <p>Сотрудники отдела маркетинга ОАО «Экзон» приняли участие в специализированной выставке «Здравоохранение и Фармация EXPO-2017», которая проходила 22-27 февраля в Ереване. В рамках участия в выставке была проведена дегустация продукции, а также были достигнуты договоренности о поставке гематогена в Республику Армения.</p>
+              <p>Сотрудники отдела маркетинга ОАО «Экзон» приняли участие в специализированной выставке «Здравоохранение и Фармация EXPO-2017», которая проходила 22-27 февраля в Ереване. В рамках участия в выставке была проведена дегустация продукции, а также были достигнуты договоренности о поставке гематогена в Республику Армения.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- серый футер-->
+      <script src="js/footer-grey.js"></script>
+      <!-- ***** /Контент *****-->
+      <!-- ***** Футер ***** -->
+      <div class="footer inn_padd">
+        <div class="footer__inner site-width">
+          <!-- Футер верхний-->
+          <div class="footer-top">
+            <!-- первая колонка -->
+            <div class="footer-top__col">
+              <div class="footer-logo"><img class="footer-logo__img" src="template-images/header-logo.png"/>
+                <div class="footer-logo__text">
+                  <div class="footer-logo__text-title">ОАО 
+                    <q>ЭКЗОН</q>
+                  </div>
+                  <div class="footer-logo__text-description1">Производство натуральных</div>
+                  <div class="footer-logo__text-description2">лекарственных средств</div>
+                </div>
+              </div>
+              <div class="footer__phones">
+                <div class="footer__phones1">8 01644 <strong>3-24-09</strong></div>
+                <div class="footer__phones2">8 01644 <strong>3-24-09</strong></div>
+              </div>
+              <div class="footer__address">225612, Республика Беларусь, г.Дрогичин, ул.Ленина 202</div>
+              <div class="footer__mail">bm@ekzon.by</div>
+            </div>
+            <!-- Кнопка, появляющаяся в мобильной версии	-->
+            <div class="footer-top__col footer-top__footer-feedback">
+                    <button class="button button--gradient footer-feedback footer-feedback_mobile" data-target="#modal-box" href="" data-toggle="modal">Онлайн заявка</button>
+            </div>
+            <!-- вторая колонка -->
+            <div class="footer-top__col">
+              <div class="footer-top__col-title">Компания</div>
+              <div class="footer-top__col-row">Информация</div>
+              <div class="footer-top__col-row">История</div>
+              <div class="footer-top__col-row">Сертификаты качества</div>
+              <div class="footer-top__col-row">География продаж</div>
+            </div>
+            <!-- третья колонка -->
+            <div class="footer-top__col">
+              <div class="footer-top__col-title">Продукция</div>
+              <div class="footer-top__col-row">Лекарственные средства</div>
+              <div class="footer-top__col-row">Биологически активные добавки</div>
+              <div class="footer-top__col-row">Пищевые продукты</div>
+            </div>
+            <!-- четвертая колонка -->
+            <div class="footer-top__col">
+              <div class="footer-top__col-title">Партнерам</div>
+              <div class="footer-top__col-row">Наши партнеры</div>
+              <div class="footer-top__col-row">Дистрибьютерам</div>
+              <div class="footer-top__col-row">Информация по наличию</div>
+              <div class="footer-top__col-row">Положение по скидкам</div>
+              <div class="footer-top__col-row">Форма заказа</div>
+              <div class="footer-top__col-row">Прайс лист</div>
+            </div>
+          </div>
+          <!-- /Футер верхний-->
+          <!-- Футер нижний-->
+          <div class="footer-bottom">
+            <div class="footer-bottom__inner">
+              <div class="footer-bottom__col">
+                      <button class="button button--gradient footer-feedback" data-target="#modal-box" href="" data-toggle="modal">Обратная связь</button>
+              </div>
+              <div class="footer-bottom__col">
+                <div class="footer-join-us">
+                  <div class="footer-join-us__text">Присоединяйтесь:</div>
+                  <div class="footer-join-us__socials"><img class="footer-join-us__socials" src="template-images/socials-vk.png"/><img class="footer-join-us__socials" src="template-images/socials-inst.png"/><img class="footer-join-us__socials" src="template-images/socials-fb.png"/><img class="footer-join-us__socials" src="template-images/socials-ok.png"/></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /Футер нижний-->
+          <!-- Разделитель-->
+          <div class="separator"></div>
+          <!-- Блок копирайт-->
+          <div class="footer-copyright">
+            <!-- Копирайт-->
+            <div class="footer-copyright__col footer-copyright__col1">&copy; 2017 ОАО
+              <q>ЭКЗОН</q> Все права защищены
+            </div>
+            <!-- /Копирайт-->
+            <!-- Разработчик-->
+            <div class="footer-copyright__col">
+              <div class="site-developer">
+                <div class="site-developer__text">Разработка сайта</div><img class="site-developer__img" src="template-images/site-developer.png"/>
+              </div>
+            </div>
+            <!-- /Разработчик-->
+          </div>
+          <!-- /Блок копирайт-->
+        </div>
+      </div>
+      <!-- Библиотеки скриптов -->
+      <!-- Slick Slider -->
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+      <!-- Slick Slider - init -->
+      <!-- Главный слаййдер-->
+      <script type="text/javascript" src="js/main-slider-slick.js"></script>
+      <!-- Слайдер в табах-->
+      <script type="text/javascript" src="js/slider-slick-mult.js"></script>
+      <!-- Слайдер "Наши партнеры" на странице "О компании"-->
+      <script type="text/javascript" src="js/slider-slick__carousel.js"></script>
+      <!-- Bootstrap			-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+      <!-- /Bootstrap-->
+      <!-- /Библиотеки скриптов-->
+      <!-- Скрипты-->
+      <!-- На главной меняем значение кнопки "Подробнее"(bootstrap)-->
+      <script src="js/read-more-bootstrap.js"></script>
+      <!-- Скрипт 2 -->
+      <script src=""></script>
+      <!-- Скрипт 3 -->
+      <script src=""></script>
+      <!-- /Скрипты-->
+      <!-- ***** /Футер *****-->
+    </body>
+  </head>
+</html>
+<!-- !плагин LiveReload. по завершении разработки - удалить!-->
+<script src="http://localhost:35729/livereload.js"></script>
